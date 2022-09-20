@@ -13,7 +13,7 @@ public class ReverseEvenWords {
 
 		for (int i = 0; i < split.length; i++) {
 
-			if (i % 2 == 0) {
+			if (i % 2 != 0) {
 
 				// Split the words have it into Char Array
 				char[] array = split[i].toCharArray();
